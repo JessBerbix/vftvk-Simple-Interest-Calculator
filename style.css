@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;
+	color:white;
+	font-family:arial;
+    margin:auto;
+}
 
+h1 {color:grey;
+	font-family:verdana;
+}
 
+.maindiv { background-color:white;
+	color:black;
+	width:500px;  /* The instructions have a 300px width but that makes it much shorter than the image we're supposed to match */
+	padding:20px;
+	border-radius:25px;
+	margin:auto;  /* instructions show using align:center but that doesn't work */
+}
+
+#mainform { margin:auto; 
+	line-height:30px;
+	display:table;
+}
+
+#mainform p { display: table-row; 
+}
+
+#mainform label { display:table-cell
+}
+
+.result { display:none;
+    margin-left:auto;
+    padding-left:100px;
+    padding-top:10px;
+}
+
+footer {
+	padding-top:10px;
+}
