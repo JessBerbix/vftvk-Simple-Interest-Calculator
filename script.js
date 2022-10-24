@@ -6,7 +6,7 @@ function showMessage() {
 
 function compute() {
 	var principal = document.getElementById("principal").value;
-	if(parseInt(principal) < 1) {
+	if(principal == "" || parseInt(principal) < 1) {
 		alert("Enter a positive number");
 		document.getElementById("principal").focus();
 		return;
